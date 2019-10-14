@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic means "relating to meaning in language or logic." Semantic HTML simply refers to adding meaning to our code. We don't do this for the sake of the computer to read it better, but for us and other people to be able to easily understand what we've created.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block does not tolerate any elements next to it while inline places elements in a line adjacent to each other
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+horizontal axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git helps an entire team work on a single project. It's primarily useful for version control to make sure everyone is lined up in that area, but it can also be useful for things like avoiding contradiction in code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +62,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
