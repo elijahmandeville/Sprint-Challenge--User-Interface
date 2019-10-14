@@ -54,7 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-		width: 960px;
+		width: 846px;
     margin: 0 auto;
 }
 
@@ -76,6 +76,7 @@ header {
   padding: 10px;
 	display: flex;
   justify-content: space-between;
+	width: 846px;
 }
 
 header nav {
@@ -86,14 +87,31 @@ header nav {
 	padding-top: 24px;
 }
 
+header nav a {
+	color: black;
+	transition-property: padding-left, padding-right;
+	transition-duration: 0.7s;
+}
+
+header nav a:hover {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 header .logo {
 
 }
 
 .container {
-    width: 960px;
+    width: 846px;
     margin: 0 auto;
 		padding-top: 25px;
+}
+
+.jumbo-img {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
 }
 
 .top-content {
@@ -212,13 +230,14 @@ footer nav a {
 
 
 .about-page {
-
+	padding-left: 3%;
 }
 
 .dotted-line {
-	border: 1px dotted black;
+	border-bottom: 1px dotted black;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	width: 846;
 }
 
 .section-one {
@@ -245,9 +264,24 @@ footer nav a {
 	padding-right: 19px;
 	padding-left: 19px;
 	margin-top: 6px;
+	transition-property: background-color, color;
+	transition-duration: 0.4s;
+}
+
+.learn-more:hover {
+	background-color: black;
+	color: white;
 }
 
 .about-piece div {
-	border: 1px dotted black;
+	border-bottom: 1px dotted black;
 	margin-top: 14%;
+}
+
+#work {
+	padding-left: 2.5%;
+}
+
+footer {
+	margin-top: 20px;
 }
